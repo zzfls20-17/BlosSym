@@ -1,0 +1,34 @@
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <% if (page.link) { %>
+        <h1 class="mt-4 article-title page-title"><a href="<%- url_for(page.link) %>"><%- page.title %></a></h1>
+        <% } else { %>
+        <h1 class="mt-4 article-title page-title"><%- page.title %></h1>
+        <% } %>
+        <p class="lead text-gray mt-3">作者：<% if (page.author) { %><%- page.author %><% } else { %>匿名<% } %>；发布于 <%- page.date.format('YYYY-MM-DD') %></p>
+        <% if (page.tags) { %>
+        <div class="tags">
+            <ul class="tag-list">
+                标签：
+                <% page.tags.forEach(function(tag) { %>
+                <li class="tag-list-item">
+                    <a class="tag-list-link" href="<%- url_for('/tags/'+tag.name+'/') %>"><%- tag.name %></a>
+                </li>
+                <% }) %>
+            </ul>
+        </div>
+        <% } %>
+        <% if (page.categories) { %>
+        <div class="categories">
+            <ul class="category-list">
+                分类：
+                <% page.categories.forEach(function(category) { %>
+                <li class="category-list-item">
+                    <a class="category-list-link" href="<%- url_for('/categories/'+category.name+'/') %>"><%- category.name %></a>
+                </li>
+                <% }) %>
+            </ul>
+        </div>
+        <% } %>
+    </div>
+</div>
