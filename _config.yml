@@ -27,6 +27,14 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - 'README.md'
+  - 'README-zh_CN.md'
+  - 'README-zh_TW.md'
+  - 'README-en_US.md'
+  - 'CODE_OF_CONDUCT.md'
+  - 'CONTRIBUTING.md'
+  - 'ISSUE_TEMPLATE.md'
+  - 'PULL_REQUEST_TEMPLATE.md'
 
 # Writing
 new_post_name: :title.md # File name of new posts
