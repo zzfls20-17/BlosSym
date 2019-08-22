@@ -33,7 +33,7 @@ after_script:
 
 branches:
   only:
-    - AutoGen
+    - source
 env:
  global:
    - GH_REF
