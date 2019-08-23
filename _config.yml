@@ -27,6 +27,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - '404.html'
   - 'README.md'
   - 'README-zh_CN.md'
   - 'README-zh_TW.md'
