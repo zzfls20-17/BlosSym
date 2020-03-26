@@ -13,8 +13,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blossym.zzfls20-17.cf/
-root: /
+url: https://zzfls20-17.cf/blossym/
+root: /blossym
 permalink: article/:title/
 permalink_defaults:
 
@@ -27,7 +27,6 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-  - 'CNAME'
   - '404.html'
   - 'README.md'
   - 'README-zh_CN.md'
