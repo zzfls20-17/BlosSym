@@ -8,14 +8,14 @@
 #         The value for these two should be url or relative url to a picture.
 #         If img_banner is false, no banner image will be used.
 img_banner: true
-img_banner_large: /blossym/pic/banner-lg.png
-img_banner_small: /blossym/pic/banner-sm.png
+img_banner_large: /pic/banner-lg.png
+img_banner_small: /pic/banner-sm.png
 
 # Logo: The logo will appear on every page except for the index page.
 #       If your logo is a picture, please specify the url for the logo at logo_url.
 #       If you don't have a picture, just use some word as logo. set logo_url to ~ and then specify logo_word.
 # logo_url: https://placeholder.pics/svg/100x50/DEDEDE/555555/LOGO
-logo_url: /blossym/pic/logo.png
+logo_url: /pic/logo.png
 logo_word: ~
 
 # Navbar: If you have pages other then the posts, you can create a navbar.
@@ -37,7 +37,7 @@ navbar_items:
 SEOTitle: 青云榜
 
 # favicon: specify your favicon as a path to .ico file.
-favicon: /blossym/pic/班徽新.png
+favicon: /pic/班徽新.png
 
 # Social media: link to your social media in the sidebar or footbar.
 # For media types, you can choose from 'github', 'pinterest', 'facebook', 'linkedin',
@@ -64,7 +64,7 @@ quora_username:        xxx
 sidebar_applause_easy: true
 applause_easy_appId: qB2jH5maA2i8V8PE9ysoUsgO-MdYXbMMI
 applause_easy_appKey: XXvbVEcJSVH7oxzUN7NKnax4
-clap_button: /blossym/pic/clap.png
+clap_button: /pic/clap.png
 
 # Add a tag cloud to the top of the sidebar.
 sidebar_tag_cloud: true
@@ -74,7 +74,7 @@ sidebar_category_cloud: true
 # Specify the avatar picture url in avatar_link
 # Add some word to the description.
 sidebar_about_me: true
-sidebar_avatar_link: /blossym/pic/班徽新.png
+sidebar_avatar_link: /pic/班徽新.png
 sidebar_about_description: 郑州外国语新枫杨学校2020届17班
 
 # Add some social network links to the sidebar.
