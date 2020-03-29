@@ -3,6 +3,10 @@
 <%- partial('_partial/head') %>
 <body>
     <%- partial('_partial/nav', {index: false}) %>
+<% if (page.banner) { %>
+<img class="d-none d-sm-block" src="<%- url_for(page.banner_large) %>" style="width: 100%;">
+<img class="d-sm-none" src="<%- url_for(page.banner_small) %>" style="width: 100%;">
+<% } %>
     <%- partial('_partial/title') %>
     <div class="container">
         <div class="row">

@@ -26,10 +26,10 @@ logo_word: ~
 navbar: true
 navbar_items:
   - text: 主站
-    url: /
+    url: https://zzfls20-17.cf/
     layout: ~
   - text: 青云榜
-    url: /blossym/
+    url: https://zzfls20-17.cf/blossym/
     layout: ~
 
 # SEO title: It is always attached to page title.
